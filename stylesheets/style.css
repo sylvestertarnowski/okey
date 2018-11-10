@@ -1,3 +1,44 @@
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.45)), url('../assets/background-keys.jpg');
+    background-size: cover;
+    color: white;
+    min-height: 500px;
+    align-items: center;
+}
+
+#services {
+    background-color: #343a40;
+    color: white;
+}
+
+#pricing {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.45)), url('../assets/craftsman.jpg');
+    background-size: cover;
+    color: white;  
+    min-height: 500px;
+    align-items: center;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.col-md-4 {
+    padding: 30px;
+}
+
 h1 {
-    color: blue;
+    font-size: 7em;
+}
+
+.fa-facebook-square {
+    color: #343a40;
+}
+
+.fa-key {
+    padding-right: 10px;
+}
+
+.icon-white {
+    color: white;
 }

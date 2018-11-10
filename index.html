@@ -2,7 +2,10 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>O-Key dorabianie kluczy, instalacja zamków</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
 </head>
@@ -10,7 +13,7 @@
 <body>
     <!-- Here goes the navbar configuration -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">O-Key</a>
+        <a class="navbar-brand" href="#"><i class="fas fa-key icon-white"></i>O-KEY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -19,29 +22,93 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">Strona Główna<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#services">Nasze Usługi</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Cennik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </li>
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a href="https://pl-pl.facebook.com/okey.wroclaw/"><i class="fab fa-facebook-square fa-2x icon-white"></i></a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- Main body -->
-    <div class="container">
-        <div class="col-lg"></div>
+    <div class="container-fluid">
+        <div class="row" id="home">
+            <div class="col-lg-12">
+                <h1><strong>O-Key</strong></h1>
+                <h4>Dorabianie kluczy, wymiana zamków, zamki elektroniczne, skup bekonu.</h4>
+            </div>
+        </div>
+        <div class="row" id="services">
+            <div class="col-md-4">
+                <h3>Klucze tradycyjne</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia facilis inventore similique
+                    excepturi nostrum doloribus unde culpa fuga ipsa deserunt, repellat modi autem amet nemo
+                    exercitationem? In, dolores harum. Dolores?</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Klucze elektroniczne</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eum atque quasi, nisi inventore
+                    facilis praesentium maxime, suscipit qui vel ratione nesciunt quisquam labore dicta provident
+                    dolor odio cupiditate ab.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Instalacja zamków</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ducimus, cum repellendus velit
+                    veritatis optio sequi tempora. Porro blanditiis possimus itaque voluptatem, impedit omnis
+                    inventore dignissimos quo sunt, id atque.</p>
+            </div>
+        </div>
+        <div class="row" id="pricing">
+            <div class="col-md-6 center-block">
+                <h3>Dorabianie kluczy:</h3>
+                <ul>
+                    <li>Staroświecki - 40 zł</li>
+                    <li>Zwykły - 25 zł</li>
+                    <li>Do samochodu - 80 zł</li>
+                    <li>Klucz cylindrowy - 120 zł</li>
+                    <li>Master key - 300 zł, wymaga zezwolenia</li>
+                </ul>
+            </div>
+            <div class="col-md-6 center-block">
+                <h3>Instalacja zamków:</h3>
+                <ul>
+                    <li>zamki zwykłe - 40 zł</li>
+                    <li>zamki niezwykłe - 50 zł</li>
+                    <li>zamki automatycznie - 100 zł</li>
+                    <li>zamki elektryczne - 150 zł</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="contact">
+            <div class="col-md-4">
+                <p>Hala Targowa</p>
+                <p>Stoisko nr 12</p>
+                <p>Piaskowa 17</p>
+                <p>50-359 Wrocław</p>
+            </div>
+            <div class="col-md-8">
+                <ul>
+                    <li>Email: hudy@techno.edm</li>
+                    <li>Tel: 123 456 432</li>
+                    <li>
+                        <a href="https://pl-pl.facebook.com/okey.wroclaw/"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!--Script loading bellow.-->
