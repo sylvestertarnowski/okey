@@ -2,8 +2,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.45)), url('../assets/background-keys.jpg');
     background-size: cover;
     color: white;
-    min-height: 500px;
-    align-items: center;
+    min-height: 600px;
 }
 
 #services {
@@ -12,11 +11,29 @@
 }
 
 #pricing {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.45)), url('../assets/craftsman.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/craftsman.jpg');
     background-size: cover;
     color: white;  
-    min-height: 500px;
+    min-height: 600px;
+    font-size: 24px;
+    text-align: left;
+}
+
+#contact, #pricing, #services, #home {
     align-items: center;
+}
+
+#pricing h3{
+    font-size: 32px;
+    padding-left: 30px;
+}
+
+#pricing ul, #contact ul {
+    list-style-type: none;
+}
+
+#pricing ul li:before {
+    content:"- ";
 }
 
 .container-fluid {
@@ -25,6 +42,10 @@
 
 .col-md-4 {
     padding: 30px;
+}
+
+.col-md-6 {
+    padding-left: 30px;
 }
 
 h1 {
