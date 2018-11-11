@@ -9,3 +9,16 @@ $('a').on('click', function (e) {
         scrollTop: $($(this).attr('href')).offset().top
     }, 600, 'swing');
 });
+
+$('.nav-link').hover(function () {
+    $(this).animate({
+        textDecoration: "underline"
+    });
+// }, function () {
+//     $(this).animate({
+//         textDecoration: "inherit"
+//     });
+});
+
+
+
